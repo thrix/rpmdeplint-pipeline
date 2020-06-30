@@ -22,4 +22,4 @@ prepare:
 
 execute:
     how: shell
-    script: /rpmdeplint/run_rpmdeplint.py --release $RELEASE_ID --task-id $TASK_ID
+    script: echo "testik"
